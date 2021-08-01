@@ -1,5 +1,5 @@
 const postID = '4387428904674656';
-const accessToken = ''; // find 'EAAA' at https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed
+const accessToken = ''; // find 'EAAA' at 'https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed'
 const url = 'https://graph.facebook.com/' + postID + '/comments?fields=message&access_token=' + accessToken;
 const analyze_comments = (url) => {
   fetch(url)
